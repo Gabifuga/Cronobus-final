@@ -76,7 +76,7 @@ $pic=md5($pic).time().$extension;
     $query=mysqli_query($con, "insert into tblartproduct(Title,Dimension,Orientation,Size,Artist, ArtType,ArtMedium,SellingPricing,Description,Image,Image1,Image2,Image3,Image4,RefNum) value('$title','$dimension','$orientation','$size','$artist','$arttype','$artmed','$sprice','$description','$pic','$pic1','$pic2','$pic3','$pic4','$refno')");
     if ($query) {
 echo "<script>alert('Dados de linha foram adicionados.');</script>";
-echo "<script>window.location.href ='add-art-line.php'</script>";
+echo "<script>window.location.href ='add-art-product.php'</script>";
   }
   else
     {

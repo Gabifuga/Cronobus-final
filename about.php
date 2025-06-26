@@ -5,9 +5,11 @@ error_reporting(0);
 include('includes/dbconnection.php');
 ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="pt-br">
+
    <head>
       <title>Cronobus | Sobre nós</title>
+      <meta charset="UTF-8">
     
       <script>
          addEventListener("load", function () {

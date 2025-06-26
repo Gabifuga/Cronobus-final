@@ -11,7 +11,7 @@ if(isset($_GET['delid']))
 $rid=intval($_GET['delid']);
 $sql=mysqli_query($con,"delete from tblartproduct where ID='$rid'");
  echo "<script>alert('Data deleted');</script>"; 
-  echo "<script>window.location.href = 'manage-art-line.php'</script>";     
+  echo "<script>window.location.href = 'manage-art-product.php'</script>";     
 
 
 }
@@ -96,7 +96,7 @@ while ($row=mysqli_fetch_array($ret)) {
             <td><?php  echo $row['Title'];?></td>
              <td><img src="images/<?php  echo $row['Image'];?>" width='100' height="100"></td>
                   <td><?php  echo $row['CreationDate'];?></td>
-                  <td><a href="edit-art-product-detail.php?editid=<?php echo $row['ID'];?>" class="btn btn-success">Editar</a> || <a href="manage-art-line.php?delid=<?php echo $row['ID'];?>" class="btn btn-danger">Deletar</a></td>
+                  <td><a href="edit-art-product-detail.php?editid=<?php echo $row['ID'];?>" class="btn btn-success">Editar</a> || <a href="manage-art-product.php?delid=<?php echo $row['ID'];?>" class="btn btn-danger">Deletar</a></td>
                 </tr>
                 <?php 
 $cnt=$cnt+1;

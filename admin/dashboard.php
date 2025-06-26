@@ -115,7 +115,7 @@ $apcount=mysqli_num_rows($query2);
 ?>
               <i class="fa fa-file"></i>
               <div class="count"><?php echo $apcount;?></div>
-             <div class="title"> <a class="dropdown-item" href="manage-art-line.php">Linhas de transporte totais</a></div>
+             <div class="title"> <a class="dropdown-item" href="manage-art-product.php">Linhas de transporte totais</a></div>
             </div>
             <!--/.info-box-->
           </div>

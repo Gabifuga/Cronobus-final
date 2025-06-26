@@ -50,8 +50,8 @@
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
             <ul class="sub">
-              <li><a class="" href="add-art-line.php">Adicionar linha</a></li>
-              <li><a class="" href="manage-art-line.php">Modificar linha</a></li>
+              <li><a class="" href="add-art-product.php">Adicionar linha</a></li>
+              <li><a class="" href="manage-art-product.php">Modificar linha</a></li>
             </ul>
           </li>
         
